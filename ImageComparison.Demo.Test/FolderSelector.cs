@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ImageComparison.Demo.Test
+namespace ImageComparison.Test
 {
     public enum FolderSelector
     {
