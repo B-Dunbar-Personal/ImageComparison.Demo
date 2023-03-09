@@ -15,19 +15,15 @@ The tests take these paramaters
 Test 1
 - A test that has differences
 - An output file will be saved showing the difference
-- The test compares [this base image](Image1_Base.png)
-- Against [this comparison image](Image1_Comparison.png)
 - As we have differences an output will be created showing the difference
  
 Test 2
 - A test that shows how a mask can work
-- The test compares [this base image](Image2_Base.png)
-- Against [this comparison image](Image2_Comparison.png)
-- Using [this mask](Image2_Mask.png)
 - We can compare only the bits we want to check against leaving any content we're not interested in out of the comparison
 
 Test 3
 - A test that has no differences
-- The test compares [this base image](Image3_Base.png)
-- Against [this comparison image](Image3_Comparison.png)
 - As the image is the same, we will not create any differences
+
+The output of the tests will be stored to your bin directroy where the tests are ran from.
+Otherwise I have uploaded two example of outputs from the 'mask' and when differecnes are detected. 
